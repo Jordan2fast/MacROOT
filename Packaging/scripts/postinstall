@@ -1,0 +1,8 @@
+#!/bin/bash
+# Runs as root after the app has been copied to /Applications.
+APP="/Applications/MacROOT.app"
+if [ -d "$APP" ]; then
+    xattr -dr com.apple.quarantine "$APP" 2>/dev/null || true
+    chmod -R go+rX "$APP" 2>/dev/null || true
+fi
+exit 0
