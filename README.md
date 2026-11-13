@@ -2,7 +2,7 @@
 
 **A native macOS toolbox for Hackintosh (x86_64) systems**: mount and back up your EFI, update OpenCore and kexts, edit `config.plist`, migrate a config to a newer macOS, fix iMessage/FaceTime, map USB ports, and more. SwiftUI, macOS 13+, Intel only.
 
-> **Status: pre-release.** MacROOT was written without access to a Mac, so before this repository's CI it had never been compiled or run. Expect rough edges and report them. See [Honest limitations](#honest-limitations).
+> **Status: pre-release.** Expect rough edges and report them. See [Honest limitations](#honest-limitations).
 
 > ⚠️ Running macOS on non-Apple hardware is outside Apple's licence terms, and editing an EFI can leave a machine unbootable. MacROOT backs up before it writes, but keep your own backup too. Not affiliated with Apple, Acidanthera, Dortania or any project credited below.
 
