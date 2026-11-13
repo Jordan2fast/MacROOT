@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<installer-gui-script minSpecVersion="2">
+    <title>MacROOT</title>
+    <welcome file="welcome.html" mime-type="text/html"/>
+    <conclusion file="conclusion.html" mime-type="text/html"/>
+    <options customize="never" require-scripts="false" hostArchitectures="x86_64"/>
+    <allowed-os-versions>
+        <os-version min="13.0"/>
+    </allowed-os-versions>
+    <choices-outline>
+        <line choice="default">
+            <line choice="com.pine.MacROOT"/>
+        </line>
+    </choices-outline>
+    <choice id="default"/>
+    <choice id="com.pine.MacROOT" visible="false">
+        <pkg-ref id="com.pine.MacROOT"/>
+    </choice>
+    <pkg-ref id="com.pine.MacROOT" version="1.2" onConclusion="none">MacROOT-component.pkg</pkg-ref>
+</installer-gui-script>
