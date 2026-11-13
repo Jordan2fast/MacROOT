@@ -27,7 +27,7 @@
 
 **From source** (macOS with Xcode 16+):
 ```bash
-git clone https://github.com/YOUR-USERNAME/MacROOT.git
+git clone https://github.com/Jordan2fast/MacROOT.git
 cd MacROOT
 open MacROOT.xcodeproj        # or: make build
 make pkg                      # builds MacROOT-Installer.pkg
