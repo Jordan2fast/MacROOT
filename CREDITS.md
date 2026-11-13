@@ -23,7 +23,4 @@ MacROOT stands on the work of the Hackintosh community. None of these projects e
 | [USBToolBox](https://github.com/USBToolBox) | USBToolBox | USB mapping |
 | [Hardware Sniffer](https://github.com/lzhoang2801/Hardware-Sniffer) | lzhoang2801 | The hardware report OpCore Simplify consumes |
 
-## A caution
-OpCore Simplify's authors warn that Hackintosh information from AI/LLM sources is often wrong. MacROOT's rules come from OpCore Simplify's data, OpenCore's own `Sample.plist` and documented behaviour. Verify important changes against Dortania's guide and keep a backup.
-
 Running macOS on non-Apple hardware falls outside Apple's macOS licence terms. Use MacROOT at your own risk.
